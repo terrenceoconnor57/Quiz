@@ -1,12 +1,12 @@
 body
 {
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 
-.questiongrid {
+#questiongrid {
     width: 500px;
-    height: 175px;
+    height: 150px;
     margin: 0 auto;
     background-color: blue;
     border-radius: 45px;
@@ -14,12 +14,12 @@ body
     padding: 40px 40px 40px 40px;
 }
 
-.questiongrid h1 {
+#questiongrid h1 {
     text-align: center;
     color: white;
 }
 
-.question {
+#question {
     text-align: center;
 }
 
@@ -27,8 +27,8 @@ body
     text-align: center;
 }
 
-#clickthis {
-  font-size:  30px;
+#first:hover, #second:hover, #third:hover, #fourth:hover {
+    background-color: lightslategrey;
 }
 
 #first, #second, #third, #fourth {
@@ -40,13 +40,14 @@ body
     text-align: center;
 }
 
-#previous {
-    width: 100px;
-    height: 35px;
-    margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 10px;
+
+#nextbottom h1 {
+    font-size: 20px;
+    color: white;
 }
+
+
+
 
 #next {
     width: 100px;
@@ -54,5 +55,6 @@ body
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 10px;
+    display: none;
 
 }
