@@ -33,5 +33,5 @@ function greenBack() {
 }
 
 function redBack() {
-
+  document.getElementById("questiongrid").style.backgroundColor = "red";
 }
