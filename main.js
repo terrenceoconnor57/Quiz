@@ -6,10 +6,13 @@ var fourthbutton = document.getElementById("fourth");
 
 
 
+
 firstbutton.addEventListener("click", correctAnswer);
 secondbutton.addEventListener("click", incorrectAnswer);
 thirdbutton.addEventListener("click", incorrectAnswer);
 fourthbutton.addEventListener("click", incorrectAnswer);
+
+
 
 
 
@@ -35,3 +38,20 @@ function greenBack() {
 function redBack() {
   document.getElementById("questiongrid").style.backgroundColor = "red";
 }
+
+
+function hideButtons() {
+  document.getElementById('first').style.display = 'none';
+  document.getElementById('second').style.display = 'none';
+  document.getElementById('third').style.display = 'none';
+  document.getElementById('fourth').style.display = 'none';
+}
+
+
+
+
+var i = 0;
+    function buttonClick() {
+        document.getElementById('first').value = i++;
+        document.getElementById('plusscore').innerHTML = "Score is " + i;
+    }

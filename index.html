@@ -20,22 +20,30 @@
 
         <div class="buttonstop">
 
-            <button id="first" onclick="showNext(); greenBack()">Red</button>
-            <button id="second" onclick="showNext(); redBack()">Green</button>
-            <button id="third" onclick="showNext(); redBack()">Blue</button>
-            <button id="fourth" onclick="showNext(); redBack()">Yellow</button>
+            <button id="first" value="0" onclick="showNext(); greenBack(); hideButtons(); buttonClick();">Red</button>
+            <button id="second" onclick="showNext(); redBack(); hideButtons();">Green</button>
+            <button id="third" onclick="showNext(); redBack(); hideButtons();">Blue</button>
+            <button id="fourth" onclick="showNext(); redBack(); hideButtons();">Yellow</button>
 
         </div>
+
+
+
     <div id="nextbottom">
         <h1 id="correct"></h1>
         <h1 id="incorrect"</h1>
 
     </div>
-    </div>
 
+<div id="scorekeeper">
+  <h1 id="plusscore"></h1>
+
+    </div>
+</div>
 
 
     <br />
+
 
     <div id="next">
         <a href="page2.html" style="text-decoration: none">Next<a/>
