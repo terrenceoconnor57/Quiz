@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+<!START OF FIRST QUESTION>
 
     <div id="questiongrid">
 
@@ -16,14 +16,14 @@
 
         <h1>Question 1</h1>
 
-        <div id="question"><p>What's my favorite color?</p></div>
+        <div id="question"><p>When did Siobhan and CJ meet?</p></div>
 
         <div class="buttonstop">
 
-            <button id="first" value="0" onclick="showNext(); greenBack(); hideButtons(); buttonClick();">Red</button>
-            <button id="second" onclick="showNext(); redBack(); hideButtons();">Green</button>
-            <button id="third" onclick="showNext(); redBack(); hideButtons();">Blue</button>
-            <button id="fourth" onclick="showNext(); redBack(); hideButtons();">Yellow</button>
+            <button id="first" value="0" onclick="greenBack(); hideButtons(); scoreKeep();">1995</button>
+            <button id="second" onclick="redBack(); hideButtons();">1993</button>
+            <button id="third" onclick="redBack(); hideButtons();">2003</button>
+            <button id="fourth" onclick="redBack(); hideButtons();">2007</button>
 
         </div>
 
@@ -35,22 +35,65 @@
 
     </div>
 
+
+</div>
+
+<!START OF 2ND QUESTION>
+    <br />
+
+
+
+
+<br>
+
+
+<br>
+
+<div id="questiongrid2">
+
+    <div id="green2"></div>
+
+    <h1>Question 2</h1>
+
+    <div id="question2"><p>What is Siobhan's favorite food?</p></div>
+
+    <div class="buttonstop2">
+
+        <button id="first2" onclick="redBack2(); hideButtons2();">Scallops</button>
+        <button id="second2" onclick="redBack2(); hideButtons2();">Chicken Parmesan</button>
+        <button id="third2" value="0" onclick="greenBack2(); hideButtons2(); scoreKeep();">Corn</button>
+        <button id="fourth2" onclick="redBack2(); hideButtons2();">Baguette</button>
+
+    </div>
+
+
+
+<div id="nextbottom2">
+    <h1 id="correct2"></h1>
+    <h1 id="incorrect2"</h1>
+
+</div>
+
+
+</div>
+
+
+<br />
+
+
+
+<br>
+
+
+
 <div id="scorekeeper">
   <h1 id="plusscore"></h1>
 
     </div>
-</div>
-
-
-    <br />
-
-
-    <div id="next">
-        <a href="page2.html" style="text-decoration: none">Next<a/>
-    </div>
 
 
 <script src="main.js"></script>
+<script src="main2.js"></script>
 
 
 

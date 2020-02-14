@@ -48,10 +48,8 @@ function hideButtons() {
 }
 
 
-
-
-var i = 0;
-    function buttonClick() {
-        document.getElementById('first').value = i++;
-        document.getElementById('plusscore').innerHTML = "Score is " + i;
-    }
+var score = 0;
+function scoreKeep() {
+  score++;
+  document.getElementById('plusscore').innerHTML = "Your score is " + score + " out of 10";
+}

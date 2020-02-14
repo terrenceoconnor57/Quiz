@@ -6,44 +6,50 @@ body
 
 
 
-#questiongrid {
+#questiongrid, #questiongrid2 {
     width: 500px;
     height: 150px;
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(100, 149, 237);
     border-radius: 45px;
     border: 5px solid black;
     padding: 40px 40px 40px 40px;
+    box-shadow: 4px 4px 10px;
 }
 
-#questiongrid h1 {
+#questiongrid h1, #questiongrid2 h1 {
     text-align: center;
     color: white;
     margin: 10px;
 }
 
-#question {
+#question, #question2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttonstop, .buttonstop2 {
     text-align: center;
 }
 
-.buttonstop {
-    text-align: center;
-}
-
-#first:hover, #second:hover, #third:hover, #fourth:hover {
+#first:hover, #second:hover, #third:hover, #fourth:hover,
+#first2:hover, #second2:hover, #third2:hover, #fourth2:hover {
     background-color: lightslategrey;
 }
 
-#first, #second, #third, #fourth {
-    border-radius: 4px;
+#first, #second, #third, #fourth,
+#first2, #second2, #third2, #fourth2 {
+    border-radius: 7px;
     border: 2px solid black;
+    font-size: 17px;
+    padding: 10px;
 }
 
 .buttonsbottom {
 }
 
 
-#nextbottom h1 {
+#nextbottom h1, #nextbottom2 h1 {
     font-size: 20px;
     color: white;
 }
@@ -51,22 +57,14 @@ body
 
 
 
-#next {
-    text-align: center;
-    font: white;
-    width: 100px;
-    height: 35px;
-    margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: blue;
-    display: none;
+#next, #next2 {
 
-}
 
-#next a {
-  color: white;
-  text-align: center;
   display: inline-block;
   margin: 8px 0px;
+}
+
+
+#scorekeeper {
+  text-align: center;
 }
