@@ -6,7 +6,7 @@ body
 
 
 
-#questiongrid, #questiongrid2 {
+#questiongrid, #questiongrid2, #questiongrid3, #questiongrid4 {
     width: 500px;
     height: 150px;
     margin: 0 auto;
@@ -17,28 +17,32 @@ body
     box-shadow: 4px 4px 10px;
 }
 
-#questiongrid h1, #questiongrid2 h1 {
+#questiongrid h1, #questiongrid2 h1, #questiongrid3 h1, #questiongrid4 h1 {
     text-align: center;
     color: white;
     margin: 10px;
 }
 
-#question, #question2 {
+#question, #question2, #question3, #question4  {
     text-align: center;
     font-size: 20px;
 }
 
-.buttonstop, .buttonstop2 {
+.buttonstop, .buttonstop2, .buttonstop3, .buttonstop4 {
     text-align: center;
 }
 
 #first:hover, #second:hover, #third:hover, #fourth:hover,
-#first2:hover, #second2:hover, #third2:hover, #fourth2:hover {
+#first2:hover, #second2:hover, #third2:hover, #fourth2:hover,
+#first3:hover, #second3:hover, #third3:hover, #fourth3:hover,
+#first4:hover, #second4:hover, #third4:hover, #fourth4:hover {
     background-color: lightslategrey;
 }
 
 #first, #second, #third, #fourth,
-#first2, #second2, #third2, #fourth2 {
+#first2, #second2, #third2, #fourth2,
+#first3, #second3, #third3, #fourth3,
+#first4, #second4, #third4, #fourth4  {
     border-radius: 7px;
     border: 2px solid black;
     font-size: 17px;
@@ -49,20 +53,11 @@ body
 }
 
 
-#nextbottom h1, #nextbottom2 h1 {
+#nextbottom h1, #nextbottom2 h1, #nextbottom3 h1, #nextbottom4 h1 {
     font-size: 20px;
     color: white;
 }
 
-
-
-
-#next, #next2 {
-
-
-  display: inline-block;
-  margin: 8px 0px;
-}
 
 
 #scorekeeper {
