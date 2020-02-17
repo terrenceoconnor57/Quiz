@@ -1,12 +1,13 @@
-body
-{
+body {
     background-color: lightgrey;
 }
 
 
 
 
-#questiongrid, #questiongrid2, #questiongrid3, #questiongrid4 {
+#questiongrid, #questiongrid2, #questiongrid3, #questiongrid4,
+#questiongrid5, #questiongrid6, #questiongrid7, #questiongrid8,
+#questiongrid9, #questiongrid10 {
     width: 500px;
     height: 150px;
     margin: 0 auto;
@@ -17,49 +18,133 @@ body
     box-shadow: 4px 4px 10px;
 }
 
-#questiongrid h1, #questiongrid2 h1, #questiongrid3 h1, #questiongrid4 h1 {
+    #questiongrid h1, #questiongrid2 h1, #questiongrid3 h1, #questiongrid4 h1,
+    #questiongrid5 h1, #questiongrid6 h1, #questiongrid7 h1, #questiongrid8 h1,
+    #questiongrid9 h1, #questiongrid10 h1 {
+        text-align: center;
+        color: white;
+        margin: 10px;
+    }
+
+
+
+
+.explain, .explain2, .explain3, .explain4,
+.explain5, .explain6, .explain7, .explain8,
+.explain9, .explain10 {
     text-align: center;
-    color: white;
-    margin: 10px;
 }
 
-#question, #question2, #question3, #question4  {
+
+#question, #question2, #question3, #question4,
+#question5, #question6, #question7, #question8,
+#question9, #question10 {
     text-align: center;
     font-size: 20px;
 }
 
-.buttonstop, .buttonstop2, .buttonstop3, .buttonstop4 {
+.buttonstop, .buttonstop2, .buttonstop3, .buttonstop4,
+.buttonstop5, .buttonstop6, .buttonstop7, .buttonstop8,
+.buttonstop9, .buttonstop10 {
     text-align: center;
 }
 
 #first:hover, #second:hover, #third:hover, #fourth:hover,
 #first2:hover, #second2:hover, #third2:hover, #fourth2:hover,
 #first3:hover, #second3:hover, #third3:hover, #fourth3:hover,
-#first4:hover, #second4:hover, #third4:hover, #fourth4:hover {
+#first4:hover, #second4:hover, #third4:hover, #fourth4:hover,
+#first9:hover, #second9:hover, #third9:hover, #fourth9:hover,
+#first5:hover, #second5:hover, #third5:hover, #fourth5:hover,
+#first6:hover, #second6:hover, #third6:hover, #fourth6:hover,
+#first7:hover, #second7:hover, #third7:hover, #fourth7:hover,
+#first8:hover, #second8:hover, #third8:hover, #fourth8:hover,
+#first10:hover, #second10:hover, #third10:hover, #fourth10:hover {
     background-color: lightslategrey;
+    cursor: pointer;
 }
 
 #first, #second, #third, #fourth,
 #first2, #second2, #third2, #fourth2,
 #first3, #second3, #third3, #fourth3,
-#first4, #second4, #third4, #fourth4  {
+#first4, #second4, #third4, #fourth4,
+#first5, #second5, #third5, #fourth5,
+#first6, #second6, #third6, #fourth6,
+#first7, #second7, #third7, #fourth7,
+#first8, #second8, #third8, #fourth8,
+#first9, #second9, #third9, #fourth9,
+#first10, #second10, #third10, #fourth10 {
     border-radius: 7px;
     border: 2px solid black;
     font-size: 17px;
     padding: 10px;
 }
 
-.buttonsbottom {
-}
 
 
-#nextbottom h1, #nextbottom2 h1, #nextbottom3 h1, #nextbottom4 h1 {
+#nextbottom h1, #nextbottom2 h1, #nextbottom3 h1, #nextbottom4 h1,
+#nextbottom5 h1, #nextbottom6 h1, #nextbottom7 h1, #nextbottom8 h1,
+#nextbottom9 h1, #nextbottom10 h1 {
     font-size: 20px;
     color: white;
 }
 
+#info, #info2, #info3, #info4,
+#info5, #info6, #info7, #info8,
+#info9, #info10 {
+    width: 100px;
+    height: 35px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+}
 
+#info:hover, #info2:hover, #info3:hover, #info4:hover,
+#info5:hover, #info6:hover, #info7:hover, #info8:hover,
+#info9:hover, #info10:hover {
+  background-color: lightslategrey;
+  cursor: pointer;
+}
+
+.content, .content2, .content3, .content4,
+.content5, .content6, .content7, .content8,
+.content9, .content10 {
+  background-color: rgb(100, 149, 237, 0.8);
+  font: white;
+  margin: 10%;
+  padding: 22px;
+  border-radius: 5%;
+  font-size: 20px;
+  box-shadow: 5px 5px 8px 0px black;
+}
+
+#closePopup, #closePopup2, #closePopup3, #closePopup4,
+#closePopup5, #closePopup6, #closePopup7, #closePopup8,
+#closePopup9, #closePopup10 {
+  float: right;
+  font-size: 25px;
+}
+
+#closePopup:hover, #closePopup2:hover, #closePopup3:hover, #closePopup4:hover,
+#closePopup5:hover, #closePopup6:hover, #closePopup7:hover, #closePopup8:hover,
+#closePopup9:hover, #closePopup10:hover {
+  color: red;
+  cursor:pointer;
+}
+
+#popInfo, #popInfo2, #popInfo3, #popInfo4,
+#popInfo5, #popInfo6, #popInfo7, #popInfo8,
+#popInfo9, #popInfo10 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0px; top: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
 
 #scorekeeper {
-  text-align: center;
+    text-align: center;
 }

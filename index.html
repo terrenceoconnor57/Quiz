@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<!START OF FIRST QUESTION>
+    <!START OF FIRST QUESTION>
 
     <div id="questiongrid">
 
@@ -21,149 +21,503 @@
         <div class="buttonstop">
 
             <button id="first" value="0" onclick="greenBack(); hideButtons(); scoreKeep();">1995</button>
-            <button id="second" onclick="redBack(); hideButtons();">1993</button>
-            <button id="third" onclick="redBack(); hideButtons();">2003</button>
-            <button id="fourth" onclick="redBack(); hideButtons();">2007</button>
+            <button id="second" onclick="redBack(); hideButtons(); infoButton()">1993</button>
+            <button id="third" onclick="redBack(); hideButtons(); infoButton()">2003</button>
+            <button id="fourth" onclick="redBack(); hideButtons(); infoButton()">2007</button>
 
         </div>
 
 
 
-    <div id="nextbottom">
-        <h1 id="correct"></h1>
-        <h1 id="incorrect"</h1>
+        <div id="nextbottom">
+            <h1 id="correct"></h1>
+            <h1 id="incorrect"</h1>
+
+        </div>
+
 
     </div>
 
 
-</div>
 
-<!START OF 2ND QUESTION>
+    <br />
+    <div class="explain">
+        <button id="info" onclick="popupOne();">Explanation</button>
+
+      <div id="popInfo">
+
+        <div class="content">
+        <span id="closePopup" onclick="closeInfo();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+    <!START OF 2ND QUESTION>
     <br />
 
 
 
 
-<br>
+    <br>
 
 
-<br>
+    <br>
 
-<div id="questiongrid2">
+    <div id="questiongrid2">
 
-    <div id="green2"></div>
+        <div id="green2"></div>
 
-    <h1>Question 2</h1>
+        <h1>Question 2</h1>
 
-    <div id="question2"><p>What is Siobhan's favorite food?</p></div>
+        <div id="question2"><p>What is Siobhan's favorite food?</p></div>
 
-    <div class="buttonstop2">
+        <div class="buttonstop2">
 
-        <button id="first2" onclick="redBack2(); hideButtons2();">Scallops</button>
-        <button id="second2" onclick="redBack2(); hideButtons2();">Chicken Parmesan</button>
-        <button id="third2" value="0" onclick="greenBack2(); hideButtons2(); scoreKeep();">Corn</button>
-        <button id="fourth2" onclick="redBack2(); hideButtons2();">Baguette</button>
+            <button id="first2" onclick="redBack2(); hideButtons2(); infoButton2();">Scallops</button>
+            <button id="second2" onclick="redBack2(); hideButtons2(); infoButton2();">Chicken Parmesan</button>
+            <button id="third2" value="0" onclick="greenBack2(); hideButtons2(); scoreKeep();">Corn</button>
+            <button id="fourth2" onclick="redBack2(); hideButtons2(); infoButton2();">Baguette</button>
+
+        </div>
+
+
+
+        <div id="nextbottom2">
+            <h1 id="correct2"></h1>
+            <h1 id="incorrect2"</h1>
+
+        </div>
+
+
+    </div>
+     <br />
+
+     <div class="explain2">
+         <button id="info2" onclick="popupOne2();">Explanation</button>
+
+       <div id="popInfo2">
+
+         <div class="content2">
+         <span id="closePopup2" onclick="closeInfo2();">&times;</span>
+         <p>This is info about the first question.</p>
+       </div>
+     </div>
+
+    <br />
+
+    <!START OF THIRD QUESTION>
+
+    <br>
+
+    <br>
+
+    <div id="questiongrid3">
+
+        <div id="green3"></div>
+
+        <h1>Question 3</h1>
+
+        <div id="question3"><p>Where did Siobhan and CJ rekindle?</p></div>
+
+        <div class="buttonstop3">
+
+            <button id="first3" onclick="redBack3(); hideButtons3(); infoButton3();">Belmar</button>
+            <button id="second3" value="0" onclick="greenBack3(); hideButtons3(); scoreKeep();">Seaside Boardwalk</button>
+            <button id="third3" onclick="redBack3(); hideButtons3(); infoButton3();">Nashville</button>
+            <button id="fourth3" onclick="redBack3(); hideButtons3(); infoButton3();">Whippany</button>
+
+        </div>
+
+
+
+        <div id="nextbottom3">
+            <h1 id="correct3"></h1>
+            <h1 id="incorrect3"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br>
+
+    <div class="explain3">
+        <button id="info3" onclick="popupOne3();">Explanation</button>
+
+      <div id="popInfo3">
+
+        <div class="content3">
+        <span id="closePopup3" onclick="closeInfo3();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br>
+
+
+    <div id="questiongrid4">
+
+        <div id="green4"></div>
+
+        <h1>Question 4</h1>
+
+        <div id="question4"><p>What is their dog's nickname?</p></div>
+
+        <div class="buttonstop4">
+
+            <button id="first4" onclick="redBack4(); hideButtons4(); infoButton4();">Bellsy</button>
+            <button id="second4" onclick="redBack4(); hideButtons4(); infoButton4();">Princess</button>
+            <button id="third4" onclick="redBack4(); hideButtons4(); infoButton4(); ">Hoo Hoo Husky</button>
+            <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
+
+        </div>
+
+
+
+        <div id="nextbottom4">
+            <h1 id="correct4"></h1>
+            <h1 id="incorrect4"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain4">
+        <button id="info4" onclick="popupOne4();">Explanation</button>
+
+      <div id="popInfo4">
+
+        <div class="content4">
+        <span id="closePopup4" onclick="closeInfo4();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="questiongrid5">
+
+        <div id="green5"></div>
+
+        <h1>Question 5</h1>
+
+        <div id="question5"><p>What is CJ's favorite meal?</p></div>
+
+        <div class="buttonstop5">
+
+            <button id="first5" onclick="redBack5(); hideButtons5(); infoButton5();">Prime Rib</button>
+            <button id="second5" onclick="redBack5(); hideButtons5(); infoButton5();">Hot Dogs</button>
+            <button id="third5" value="0" onclick="greenBack5(); hideButtons5(); infoButton5(); scoreKeep(); ">Mac and Cheese</button>
+            <button id="fourth5"  onclick="redBack5(); hideButtons5();">Lobster</button>
+
+        </div>
+
+
+
+        <div id="nextbottom5">
+            <h1 id="correct5"></h1>
+            <h1 id="incorrect5"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain5">
+        <button id="info5" onclick="popupOne5();">Explanation</button>
+
+      <div id="popInfo5">
+
+        <div class="content5">
+        <span id="closePopup5" onclick="closeInfo5();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="questiongrid4">
+
+        <div id="green4"></div>
+
+        <h1>Question 4</h1>
+
+        <div id="question4"><p>What is their dog's nickname?</p></div>
+
+        <div class="buttonstop4">
+
+            <button id="first4" onclick="redBack4(); hideButtons4(); infoButton4();">Bellsy</button>
+            <button id="second4" onclick="redBack4(); hideButtons4(); infoButton4();">Princess</button>
+            <button id="third4" onclick="redBack4(); hideButtons4(); infoButton4(); ">Hoo Hoo Husky</button>
+            <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
+
+        </div>
+
+
+
+        <div id="nextbottom4">
+            <h1 id="correct4"></h1>
+            <h1 id="incorrect4"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain4">
+        <button id="info4" onclick="popupOne4();">Explanation</button>
+
+      <div id="popInfo4">
+
+        <div class="content4">
+        <span id="closePopup4" onclick="closeInfo4();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="questiongrid4">
+
+        <div id="green4"></div>
+
+        <h1>Question 4</h1>
+
+        <div id="question4"><p>What is their dog's nickname?</p></div>
+
+        <div class="buttonstop4">
+
+            <button id="first4" onclick="redBack4(); hideButtons4(); infoButton4();">Bellsy</button>
+            <button id="second4" onclick="redBack4(); hideButtons4(); infoButton4();">Princess</button>
+            <button id="third4" onclick="redBack4(); hideButtons4(); infoButton4(); ">Hoo Hoo Husky</button>
+            <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
+
+        </div>
+
+
+
+        <div id="nextbottom4">
+            <h1 id="correct4"></h1>
+            <h1 id="incorrect4"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain4">
+        <button id="info4" onclick="popupOne4();">Explanation</button>
+
+      <div id="popInfo4">
+
+        <div class="content4">
+        <span id="closePopup4" onclick="closeInfo4();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="questiongrid4">
+
+        <div id="green4"></div>
+
+        <h1>Question 4</h1>
+
+        <div id="question4"><p>What is their dog's nickname?</p></div>
+
+        <div class="buttonstop4">
+
+            <button id="first4" onclick="redBack4(); hideButtons4(); infoButton4();">Bellsy</button>
+            <button id="second4" onclick="redBack4(); hideButtons4(); infoButton4();">Princess</button>
+            <button id="third4" onclick="redBack4(); hideButtons4(); infoButton4(); ">Hoo Hoo Husky</button>
+            <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
+
+        </div>
+
+
+
+        <div id="nextbottom4">
+            <h1 id="correct4"></h1>
+            <h1 id="incorrect4"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain4">
+        <button id="info4" onclick="popupOne4();">Explanation</button>
+
+      <div id="popInfo4">
+
+        <div class="content4">
+        <span id="closePopup4" onclick="closeInfo4();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="questiongrid4">
+
+        <div id="green4"></div>
+
+        <h1>Question 4</h1>
+
+        <div id="question4"><p>What is their dog's nickname?</p></div>
+
+        <div class="buttonstop4">
+
+            <button id="first4" onclick="redBack4(); hideButtons4(); infoButton4();">Bellsy</button>
+            <button id="second4" onclick="redBack4(); hideButtons4(); infoButton4();">Princess</button>
+            <button id="third4" onclick="redBack4(); hideButtons4(); infoButton4(); ">Hoo Hoo Husky</button>
+            <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
+
+        </div>
+
+
+
+        <div id="nextbottom4">
+            <h1 id="correct4"></h1>
+            <h1 id="incorrect4"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain4">
+        <button id="info4" onclick="popupOne4();">Explanation</button>
+
+      <div id="popInfo4">
+
+        <div class="content4">
+        <span id="closePopup4" onclick="closeInfo4();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="questiongrid4">
+
+        <div id="green4"></div>
+
+        <h1>Question 4</h1>
+
+        <div id="question4"><p>What is their dog's nickname?</p></div>
+
+        <div class="buttonstop4">
+
+            <button id="first4" onclick="redBack4(); hideButtons4(); infoButton4();">Bellsy</button>
+            <button id="second4" onclick="redBack4(); hideButtons4(); infoButton4();">Princess</button>
+            <button id="third4" onclick="redBack4(); hideButtons4(); infoButton4(); ">Hoo Hoo Husky</button>
+            <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
+
+        </div>
+
+
+
+        <div id="nextbottom4">
+            <h1 id="correct4"></h1>
+            <h1 id="incorrect4"</h1>
+
+        </div>
+
+
+    </div>
+
+    <br />
+
+    <br />
+
+    <div class="explain4">
+        <button id="info4" onclick="popupOne4();">Explanation</button>
+
+      <div id="popInfo4">
+
+        <div class="content4">
+        <span id="closePopup4" onclick="closeInfo4();">&times;</span>
+        <p>This is info about the first question.</p>
+      </div>
+    </div>
+
+    <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="scorekeeper">
+        <h1 id="plusscore"></h1>
 
     </div>
 
 
-
-<div id="nextbottom2">
-    <h1 id="correct2"></h1>
-    <h1 id="incorrect2"</h1>
-
-</div>
-
-
-</div>
-
-
-<br />
-
-<!START OF THIRD QUESTION>
-
-<br>
-
-<br>
-
-<div id="questiongrid3">
-
-    <div id="green3"></div>
-
-    <h1>Question 3</h1>
-
-    <div id="question3"><p>Where did Siobhan and CJ rekindle?</p></div>
-
-    <div class="buttonstop3">
-
-        <button id="first3" onclick="redBack3(); hideButtons3();">Belmar</button>
-        <button id="second3" value="0" onclick="greenBack3(); hideButtons3(); scoreKeep();">Seaside Boardwalk</button>
-        <button id="third3" onclick="redBack3(); hideButtons3();">Nashville</button>
-        <button id="fourth3" onclick="redBack3(); hideButtons3();">Whippany</button>
-
-    </div>
-
-
-
-<div id="nextbottom3">
-    <h1 id="correct3"></h1>
-    <h1 id="incorrect3"</h1>
-
-</div>
-
-
-</div>
-<br>
-
-<br>
-
-<br>
-
-
-<div id="questiongrid4">
-
-    <div id="green4"></div>
-
-    <h1>Question 4</h1>
-
-    <div id="question4"><p>What is their dog's nickname?</p></div>
-
-    <div class="buttonstop4">
-
-        <button id="first4" onclick="redBack4(); hideButtons4();">Bellsy</button>
-        <button id="second4" onclick="redBack4(); hideButtons4();">Princess</button>
-        <button id="third4" onclick="redBack4(); hideButtons4(); ">Hoo Hoo Husky</button>
-        <button id="fourth4" value="0" onclick="greenBack4(); hideButtons4(); scoreKeep();">Boo Boo Bear</button>
-
-    </div>
-
-
-
-<div id="nextbottom4">
-    <h1 id="correct4"></h1>
-    <h1 id="incorrect4"</h1>
-
-</div>
-
-
-</div>
-
-
-
-<div id="scorekeeper">
-  <h1 id="plusscore"></h1>
-
-    </div>
-
-
-<script src="main.js"></script>
-<script src="main2.js"></script>
-<script src="main3.js"></script>
-<script src="main4.js"></script>
+    <script src="main.js"></script>
 
 
 
 
 
 </body>
-</html >
+</html>
