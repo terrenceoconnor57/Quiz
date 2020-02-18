@@ -109,11 +109,13 @@ body {
 .content, .content2, .content3, .content4,
 .content5, .content6, .content7, .content8,
 .content9, .content10 {
-  background-color: rgb(100, 149, 237, 0.8);
+  background-color: rgb(220, 220, 220, 0.9);
+  text-align: center;
+  width: 450px;
+  border: 2px solid black;
   font: white;
-  margin: 10%;
-  padding: 22px;
-  border-radius: 5%;
+  margin: 10% auto;
+  padding: 10px;
   font-size: 20px;
   box-shadow: 5px 5px 8px 0px black;
 }
@@ -122,7 +124,7 @@ body {
 #closePopup5, #closePopup6, #closePopup7, #closePopup8,
 #closePopup9, #closePopup10 {
   float: right;
-  font-size: 25px;
+  font-size: 32px;
 }
 
 #closePopup:hover, #closePopup2:hover, #closePopup3:hover, #closePopup4:hover,

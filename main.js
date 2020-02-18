@@ -117,11 +117,11 @@ function infoButton2() {
   }
 
   function popupOne2() {
-    document.getElementById('popInfo').style.display = 'block';
+    document.getElementById('popInfo2').style.display = 'block';
   }
 
   function closeInfo2() {
-    document.getElementById('popInfo').style.display = 'none';
+    document.getElementById('popInfo2').style.display = 'none';
   }
 
 
@@ -180,11 +180,11 @@ function infoButton2() {
   }
 
   function popupOne3() {
-    document.getElementById('popInfo').style.display = 'block';
+    document.getElementById('popInfo3').style.display = 'block';
   }
 
   function closeInfo3() {
-    document.getElementById('popInfo').style.display = 'none';
+    document.getElementById('popInfo3').style.display = 'none';
   }
 
 
@@ -243,11 +243,11 @@ function infoButton2() {
   }
 
   function popupOne4() {
-    document.getElementById('popInfo').style.display = 'block';
+    document.getElementById('popInfo4').style.display = 'block';
   }
 
   function closeInfo4() {
-    document.getElementById('popInfo').style.display = 'none';
+    document.getElementById('popInfo4').style.display = 'none';
   }
 
 
@@ -311,4 +311,319 @@ function infoButton2() {
 
   function closeInfo5() {
     document.getElementById('popInfo5').style.display = 'none';
+  }
+
+
+  var firstbutton6 = document.getElementById("first6");
+  var secondbutton6 = document.getElementById("second6");
+  var thirdbutton6 = document.getElementById("third6");
+  var fourthbutton6 = document.getElementById("fourth6");
+
+
+
+
+
+  firstbutton6.addEventListener("click", incorrectAnswer6);
+  secondbutton6.addEventListener("click", correctAnswer6);
+  thirdbutton6.addEventListener("click", incorrectAnswer6);
+  fourthbutton6.addEventListener("click", incorrectAnswer6);
+
+
+
+
+
+
+  function correctAnswer6() {
+      document.getElementById("correct6").innerHTML = "CORRECT!";
+  }
+
+  function incorrectAnswer6() {
+      document.getElementById("incorrect6").innerHTML = "Incorrect";
+  }
+
+  function showNext6() {
+      document.getElementById('next6').style.display = 'block';
+  }
+
+
+
+  function greenBack6() {
+      document.getElementById("questiongrid6").style.backgroundColor = "green";
+  }
+
+  function redBack6() {
+    document.getElementById("questiongrid6").style.backgroundColor = "red";
+  }
+
+
+  function hideButtons6() {
+    document.getElementById('first6').style.display = 'none';
+    document.getElementById('second6').style.display = 'none';
+    document.getElementById('third6').style.display = 'none';
+    document.getElementById('fourth6').style.display = 'none';
+  }
+
+
+  function infoButton6() {
+      document.getElementById('info6').style.display = 'block';
+  }
+
+  function popupOne6() {
+    document.getElementById('popInfo6').style.display = 'block';
+  }
+
+  function closeInfo6() {
+    document.getElementById('popInfo6').style.display = 'none';
+  }
+
+
+  var firstbutton7 = document.getElementById("first7");
+  var secondbutton7 = document.getElementById("second7");
+  var thirdbutton7 = document.getElementById("third7");
+  var fourthbutton7 = document.getElementById("fourth7");
+
+
+
+
+
+  firstbutton7.addEventListener("click", incorrectAnswer7);
+  secondbutton7.addEventListener("click", correctAnswer7);
+  thirdbutton7.addEventListener("click", incorrectAnswer7);
+  fourthbutton7.addEventListener("click", incorrectAnswer7);
+
+
+
+
+
+
+  function correctAnswer7() {
+      document.getElementById("correct7").innerHTML = "CORRECT!";
+  }
+
+  function incorrectAnswer7() {
+      document.getElementById("incorrect7").innerHTML = "Incorrect";
+  }
+
+  function showNext7() {
+      document.getElementById('next7').style.display = 'block';
+  }
+
+
+
+  function greenBack7() {
+      document.getElementById("questiongrid7").style.backgroundColor = "green";
+  }
+
+  function redBack7() {
+    document.getElementById("questiongrid7").style.backgroundColor = "red";
+  }
+
+
+  function hideButtons7() {
+    document.getElementById('first7').style.display = 'none';
+    document.getElementById('second7').style.display = 'none';
+    document.getElementById('third7').style.display = 'none';
+    document.getElementById('fourth7').style.display = 'none';
+  }
+
+
+  function infoButton7() {
+      document.getElementById('info7').style.display = 'block';
+  }
+
+  function popupOne7() {
+    document.getElementById('popInfo7').style.display = 'block';
+  }
+
+  function closeInfo7() {
+    document.getElementById('popInfo7').style.display = 'none';
+  }
+
+
+  var firstbutton8 = document.getElementById("first8");
+  var secondbutton8 = document.getElementById("second8");
+  var thirdbutton8 = document.getElementById("third8");
+  var fourthbutton8 = document.getElementById("fourth8");
+
+
+
+
+
+  firstbutton8.addEventListener("click", correctAnswer8);
+  secondbutton8.addEventListener("click", incorrectAnswer8);
+  thirdbutton8.addEventListener("click", incorrectAnswer8);
+  fourthbutton8.addEventListener("click", incorrectAnswer8);
+
+
+
+
+
+
+  function correctAnswer8() {
+      document.getElementById("correct8").innerHTML = "CORRECT!";
+  }
+
+  function incorrectAnswer8() {
+      document.getElementById("incorrect8").innerHTML = "Incorrect";
+  }
+
+  function showNext8() {
+      document.getElementById('next8').style.display = 'block';
+  }
+
+
+
+  function greenBack8() {
+      document.getElementById("questiongrid8").style.backgroundColor = "green";
+  }
+
+  function redBack8() {
+    document.getElementById("questiongrid8").style.backgroundColor = "red";
+  }
+
+
+  function hideButtons8() {
+    document.getElementById('first8').style.display = 'none';
+    document.getElementById('second8').style.display = 'none';
+    document.getElementById('third8').style.display = 'none';
+    document.getElementById('fourth8').style.display = 'none';
+  }
+
+
+  function infoButton8() {
+      document.getElementById('info8').style.display = 'block';
+  }
+
+  function popupOne8() {
+    document.getElementById('popInfo8').style.display = 'block';
+  }
+
+  function closeInfo8() {
+    document.getElementById('popInfo8').style.display = 'none';
+  }
+
+
+  var firstbutton9 = document.getElementById("first9");
+  var secondbutton9 = document.getElementById("second9");
+  var thirdbutton9 = document.getElementById("third9");
+  var fourthbutton9 = document.getElementById("fourth9");
+
+
+
+
+
+  firstbutton9.addEventListener("click", incorrectAnswer9);
+  secondbutton9.addEventListener("click", incorrectAnswer9);
+  thirdbutton9.addEventListener("click", incorrectAnswer9);
+  fourthbutton9.addEventListener("click", correctAnswer9);
+
+
+
+
+
+
+  function correctAnswer9() {
+      document.getElementById("correct9").innerHTML = "CORRECT!";
+  }
+
+  function incorrectAnswer9() {
+      document.getElementById("incorrect9").innerHTML = "Incorrect";
+  }
+
+  function showNext9() {
+      document.getElementById('next9').style.display = 'block';
+  }
+
+
+
+  function greenBack9() {
+      document.getElementById("questiongrid9").style.backgroundColor = "green";
+  }
+
+  function redBack9() {
+    document.getElementById("questiongrid9").style.backgroundColor = "red";
+  }
+
+
+  function hideButtons9() {
+    document.getElementById('first9').style.display = 'none';
+    document.getElementById('second9').style.display = 'none';
+    document.getElementById('third9').style.display = 'none';
+    document.getElementById('fourth9').style.display = 'none';
+  }
+
+
+  function infoButton9() {
+      document.getElementById('info9').style.display = 'block';
+  }
+
+  function popupOne9() {
+    document.getElementById('popInfo9').style.display = 'block';
+  }
+
+  function closeInfo9() {
+    document.getElementById('popInfo9').style.display = 'none';
+  }
+
+
+  var firstbutton10 = document.getElementById("first10");
+  var secondbutton10 = document.getElementById("second10");
+  var thirdbutton10 = document.getElementById("third10");
+  var fourthbutton10 = document.getElementById("fourth10");
+
+
+
+
+
+  firstbutton10.addEventListener("click", incorrectAnswer10);
+  secondbutton10.addEventListener("click", correctAnswer10);
+  thirdbutton10.addEventListener("click", incorrectAnswer10);
+  fourthbutton10.addEventListener("click", incorrectAnswer10);
+
+
+
+
+
+
+  function correctAnswer10() {
+      document.getElementById("correct10").innerHTML = "CORRECT!";
+  }
+
+  function incorrectAnswer10() {
+      document.getElementById("incorrect10").innerHTML = "Incorrect";
+  }
+
+  function showNext10() {
+      document.getElementById('next10').style.display = 'block';
+  }
+
+
+
+  function greenBack10() {
+      document.getElementById("questiongrid10").style.backgroundColor = "green";
+  }
+
+  function redBack10() {
+    document.getElementById("questiongrid10").style.backgroundColor = "red";
+  }
+
+
+  function hideButtons10() {
+    document.getElementById('first10').style.display = 'none';
+    document.getElementById('second10').style.display = 'none';
+    document.getElementById('third10').style.display = 'none';
+    document.getElementById('fourth10').style.display = 'none';
+  }
+
+
+  function infoButton10() {
+      document.getElementById('info10').style.display = 'block';
+  }
+
+  function popupOne10() {
+    document.getElementById('popInfo10').style.display = 'block';
+  }
+
+  function closeInfo10() {
+    document.getElementById('popInfo10').style.display = 'none';
   }
