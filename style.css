@@ -99,54 +99,107 @@ body {
     display: none;
 }
 
-#info:hover, #info2:hover, #info3:hover, #info4:hover,
-#info5:hover, #info6:hover, #info7:hover, #info8:hover,
-#info9:hover, #info10:hover {
-  background-color: lightslategrey;
-  cursor: pointer;
-}
+    #info:hover, #info2:hover, #info3:hover, #info4:hover,
+    #info5:hover, #info6:hover, #info7:hover, #info8:hover,
+    #info9:hover, #info10:hover {
+        background-color: lightslategrey;
+        cursor: pointer;
+    }
 
 .content, .content2, .content3, .content4,
 .content5, .content6, .content7, .content8,
 .content9, .content10 {
-  background-color: rgb(220, 220, 220, 0.9);
-  text-align: center;
-  width: 450px;
-  border: 2px solid black;
-  font: white;
-  margin: 10% auto;
-  padding: 10px;
-  font-size: 20px;
-  box-shadow: 5px 5px 8px 0px black;
+    background-color: rgb(220, 220, 220, 0.9);
+    text-align: center;
+    width: 450px;
+    border: 2px solid black;
+    font: white;
+    margin: 10% auto;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 8px 0px black;
 }
 
 #closePopup, #closePopup2, #closePopup3, #closePopup4,
 #closePopup5, #closePopup6, #closePopup7, #closePopup8,
 #closePopup9, #closePopup10 {
-  float: right;
-  font-size: 32px;
+    float: right;
+    font-size: 32px;
 }
 
-#closePopup:hover, #closePopup2:hover, #closePopup3:hover, #closePopup4:hover,
-#closePopup5:hover, #closePopup6:hover, #closePopup7:hover, #closePopup8:hover,
-#closePopup9:hover, #closePopup10:hover {
-  color: red;
-  cursor:pointer;
-}
+    #closePopup:hover, #closePopup2:hover, #closePopup3:hover, #closePopup4:hover,
+    #closePopup5:hover, #closePopup6:hover, #closePopup7:hover, #closePopup8:hover,
+    #closePopup9:hover, #closePopup10:hover {
+        color: red;
+        cursor: pointer;
+    }
 
 #popInfo, #popInfo2, #popInfo3, #popInfo4,
 #popInfo5, #popInfo6, #popInfo7, #popInfo8,
 #popInfo9, #popInfo10 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0px; top: 0px;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.5);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
 }
 
 #scorekeeper {
     text-align: center;
+}
+
+.resultscontainer {
+    background-color: rgb(220, 220, 220, 0.9);
+    text-align: center;
+    width: 450px;
+    border: 2px solid black;
+    font: white;
+    margin: 10% auto;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 8px 0px black;
+
+}
+
+#results {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#resultsbutton {
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 32px;
+    display: none;
+}
+
+
+
+#resultsbutton:hover {
+    background-color: lightslategrey;
+    cursor:pointer;
+}
+
+#closeresults {
+    float: right;
+    font-size: 32px;
+}
+
+#closeresults:hover {
+    color: red;
+    cursor: pointer;
 }
